@@ -11,8 +11,8 @@ import java.util.List;
 
 public class Database {
     private String url = "jdbc:postgresql://localhost:5432/stocktools";
-    private String user = "sebastianarledal";
-    private String password = "Kalleanka123";
+    private String user = "";
+    private String password = "";
 
     private void connect() {
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
